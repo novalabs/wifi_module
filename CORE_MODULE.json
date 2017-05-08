@@ -1,0 +1,22 @@
+{
+  "name": "wifi",
+  "description": "WINC1500 WiFi module",
+  "chip": "STM32F303CC",
+  "required_packages": [
+    "led",
+    "common_msgs"
+  ],
+  "chibios_components": [
+    "rt",
+    "hal",
+    "ext",
+    "gpt",
+    "pal",
+    "syscalls",
+    "spi",
+    "serial",
+    "hal_buffers",
+    "uart",
+    "chprintf"
+  ]
+}
